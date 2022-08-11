@@ -1,0 +1,56 @@
+.success-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+}
+.ul-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.link-el {
+  text-decoration: none;
+}
+.li-container {
+  margin: 30px;
+  width: 50%;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  margin-left: 0px;
+}
+.li-image {
+  width: 100px;
+}
+.li-title {
+  align-self: center;
+  margin-left: 7px;
+}
+.loader-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+.failure-btn {
+  padding: 10px;
+  background-color: #4656a1;
+  color: white;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 10px;
+}
